@@ -2,7 +2,7 @@ package ar.edu.unlp.objetos.uno.ejercicio9_CuentaConGanchos;
 
 public abstract class Cuenta {
 	
-	protected double saldo;
+	private double saldo;
 	
 	public Cuenta() {
 		this.saldo = 0;
